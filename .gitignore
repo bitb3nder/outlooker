@@ -1,0 +1,8 @@
+# dont write your auth token to github
+.auth_token
+
+# ignore python trash files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
