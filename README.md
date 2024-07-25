@@ -38,6 +38,7 @@ positional arguments:
     search              Search for emails from the user's inbox by keyword
     sendinvites         Launch a calendar invite campaign
     list                List available templates
+    addtemplate         Add script support for a custom HTML template
     devicecode          Authenticate using device code flow
 
 optional arguments:
@@ -47,7 +48,7 @@ optional arguments:
 ## Working With Templates
 List loaded templates with
 ```
-python3 outlooker.py listtemplates
+python3 outlooker.py list
 ```
 
 HTML Templates are located in the `/templates` directory. All currently implemented templates are indexed in the `/templates/templates_metadata.json` file with the following structure:
@@ -61,10 +62,23 @@ HTML Templates are located in the `/templates` directory. All currently implemen
   }
 }
 ```
-To create a new HTML template, simply generate the HTML for the template with placeholder fields and place the file in the `/templates` directory. Fields in templates are completely customizable and are denoted with the `{.field}` syntax in the html content. Update the `/templates/templates_metadata.json` file to give the template a name for use with the `-t` flag, and provide details about the template, including the placeholders that will need to be accounted for.
+To create a new HTML template, simply generate the HTML for the template with placeholder fields and place the file in the `/templates` directory. Fields in templates are completely customizable and are denoted with the `{.field}` syntax in the html content. The `addtemplate` module can then be called to account for the new template:
+```
+usage: outlooker.py addtemplate [-h] -t TEMPLATE -n NAME -d DESCRIPTION -c CATEGORY
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -t TEMPLATE, --template TEMPLATE
+                        Full filename of the .html file in the /templates directory
+  -n NAME, --name NAME  Short name to reference the template by
+  -d DESCRIPTION, --description DESCRIPTION
+                        Brief description of what the template aims to do
+  -c CATEGORY, --category CATEGORY
+                        Category for the template (e.g., Payload, Malicious Links, Spam)
+```
 
 > [!NOTE]  
-> All templates require the `email` field, which will serve as the target email address in the campaign details .csv file.
+> The `email` field should automatically prepend to the list of fields, as this is required by every campaign.
 
 ## Building A Campaign
 After determining a template, the fields array will serve as the structure for the .csv file that will determine the variables of the emails sent. In the above example for `test.html`, there are only two fields, email and firstname. The firstname field is dynamic content loaded into the html body of the email. The resulting .csv for a `test` campaign should look like:
