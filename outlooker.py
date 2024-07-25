@@ -18,6 +18,50 @@ def list_templates():
         print(f"    Description: {details['description']}")
         print(f"    Category: {details['category']}\n")
 
+def load_templates_metadata():
+    templates_path = os.path.join(os.path.dirname(__file__), 'templates', 'templates_metadata.json')
+    with open(templates_path, 'r') as f:
+        templates_metadata = json.load(f)
+    return templates_metadata
+
+def read_template_file(template_filename):
+    template_path = os.path.join(os.path.dirname(__file__), 'templates', template_filename)
+    with open(template_path, 'r') as template_file:
+        template_content = template_file.read()
+    return template_content
+
+def add_template(args):
+    template_filename = args.template
+    template_path = os.path.join(os.path.dirname(__file__), 'templates', template_filename)
+    
+    if not os.path.exists(template_path):
+        print(f"Error: Template file {template_filename} not found.")
+        return
+    
+    with open(template_path, 'r') as template_file:
+        template_content = template_file.read()
+    
+    placeholders = re.findall(r'{\.(\w+)}', template_content)
+    fields = ["email"] + list(set(placeholders))  
+    
+    new_template_metadata = {
+        args.name: {
+            "filename": template_filename,
+            "fields": fields,
+            "description": args.description,
+            "category": args.category
+        }
+    }
+    
+    templates_metadata_path = os.path.join(os.path.dirname(__file__), 'templates', 'templates_metadata.json')
+    with open(templates_metadata_path, 'r+') as f:
+        templates_metadata = json.load(f)
+        templates_metadata.update(new_template_metadata)
+        f.seek(0)
+        json.dump(templates_metadata, f, indent=4)
+    
+    print(f"[+] Template {args.name} added successfully.")
+
 def build_email(template_name, user_data, template_content, subject, attachment=None):
     for key, value in user_data.items():
         template_content = template_content.replace(f"{{.{key}}}", value)
@@ -41,18 +85,6 @@ def build_email(template_name, user_data, template_content, subject, attachment=
         email_data['attachments'] = [attachment]
 
     return email_data
-
-def load_templates_metadata():
-    templates_path = os.path.join(os.path.dirname(__file__), 'templates', 'templates_metadata.json')
-    with open(templates_path, 'r') as f:
-        templates_metadata = json.load(f)
-    return templates_metadata
-
-def read_template_file(template_filename):
-    template_path = os.path.join(os.path.dirname(__file__), 'templates', template_filename)
-    with open(template_path, 'r') as template_file:
-        template_content = template_file.read()
-    return template_content
 
 def send_emails(access_token, args):
     user_list_path = args.user_list
@@ -246,6 +278,13 @@ def main():
 
     list_parser = subparsers.add_parser('list', help='List templates')
 
+    add_template_parser = subparsers.add_parser('addtemplate', help='Add script support for a custom HTML template')
+    add_template_parser.add_argument("-t", "--template", help="Full filename of the .html file in the /templates directory", required=True)
+    add_template_parser.add_argument("-n", "--name", help="Short name to reference the template by", required=True)
+    add_template_parser.add_argument("-d", "--description", help="Brief description of what the template aims to do", required=True)
+    add_template_parser.add_argument("-c", "--category", help="Category for the template (e.g., Payload, Malicious Links, Spam)", required=True)
+
+
     auth_parser = subparsers.add_parser('devicecode', help='Authenticate using device code flow')
 
     args = parser.parse_args()
@@ -255,6 +294,8 @@ def main():
         send_emails(access_token, args)
     elif args.command == 'list':
         list_templates()
+    elif args.command == 'devicecode':
+        device_code_auth()
     elif args.command == 'read':
         if args.email_id:
             access_token = graph_auth(args)
@@ -272,8 +313,8 @@ def main():
     elif args.command == 'sendinvites':
         access_token = args.access_token or graph_auth(args.email, args.password, args.tenant_id, args.refresh_token)
         send_invites(access_token, args)
-    elif args.command == 'devicecode':
-        device_code_auth()
+    elif args.command == 'addtemplate':
+        add_template(args)
 
 if __name__ == "__main__":
     main()

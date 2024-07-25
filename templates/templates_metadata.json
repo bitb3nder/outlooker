@@ -1,38 +1,66 @@
 {
-  "test": {
-    "filename": "test.html",
-    "fields": ["email", "firstname"],
-    "description": "Simple HTML to test landing in the inbox",
-    "category": "Spam"
-  },
-  "o365_login": {
-    "filename": "o365_login.html",
-    "fields": ["email", "firstname", "link", "company"],
-    "description": "Basic O365 auth redirect email",
-    "category": "Malicious Links"
-  },
-  "bypass": {
-    "filename": "bypass_template.html",
-    "fields": ["email", "firstname", "company"],
-    "description": "A template that may squish external sender warnings in the body of emails",
-    "category": "Malicious Links"
-  },
-  "calendar_invite": {
-    "filename": "calendar_invite.html",
-    "fields": ["email", "firstname", "date", "link", "company"],
-    "description": "Template for sending calendar invites",
-    "category": "Spam"
-  },
-  "shared_document": {
-    "filename": "m365_shared.html",
-    "fields": ["email", "firstname", "coworker", "link"],
-    "description": "Template for sending HTML smuggled documents (e.g. {.coworker} shared a doc with you",
-    "category": "Payload"
-  },
-  "out_of_date": {
-    "filename": "out_of_date.html",
-    "fields": ["email", "firstname", "link", "company"],
-    "description": "Request that the user log in to 0365 to perform updates",
-    "category": "Malicious Links"
-  }
+    "test": {
+        "filename": "test.html",
+        "fields": [
+            "email",
+            "firstname"
+        ],
+        "description": "Simple HTML to test landing in the inbox",
+        "category": "Spam"
+    },
+    "o365_login": {
+        "filename": "o365_login.html",
+        "fields": [
+            "email",
+            "firstname",
+            "link",
+            "company"
+        ],
+        "description": "Basic O365 auth redirect email",
+        "category": "Malicious Links"
+    },
+    "bypass": {
+        "filename": "bypass_template.html",
+        "fields": [
+            "email",
+            "firstname",
+            "company"
+        ],
+        "description": "A template that may squish external sender warnings in the body of emails",
+        "category": "Malicious Links"
+    },
+    "calendar_invite": {
+        "filename": "calendar_invite.html",
+        "fields": [
+            "email",
+            "firstname",
+            "date",
+            "link",
+            "company"
+        ],
+        "description": "Template for sending calendar invites",
+        "category": "Spam"
+    },
+    "shared_document": {
+        "filename": "m365_shared.html",
+        "fields": [
+            "email",
+            "firstname",
+            "coworker",
+            "link"
+        ],
+        "description": "Template for sending HTML smuggled documents (e.g. {.coworker} shared a doc with you",
+        "category": "Payload"
+    },
+    "out_of_date": {
+        "filename": "out_of_date.html",
+        "fields": [
+            "email",
+            "link",
+            "company",
+            "firstname"
+        ],
+        "description": "Request that the user log in to 0365 to perform updates",
+        "category": "Malicious Links"
+    }
 }
