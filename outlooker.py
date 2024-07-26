@@ -290,7 +290,7 @@ def main():
     args = parser.parse_args()
 
     if args.command == 'send':
-        access_token = args.access_token or graph_auth(args.email, args.password, args.tenant_id, args.refresh_token)
+        access_token = args.access_token or graph_auth(args)
         send_emails(access_token, args)
     elif args.command == 'list':
         list_templates()
@@ -311,7 +311,7 @@ def main():
             access_token = graph_auth(args)
             search_inbox(access_token, args)
     elif args.command == 'sendinvites':
-        access_token = args.access_token or graph_auth(args.email, args.password, args.tenant_id, args.refresh_token)
+        access_token = args.access_token or graph_auth(args)
         send_invites(access_token, args)
     elif args.command == 'addtemplate':
         add_template(args)

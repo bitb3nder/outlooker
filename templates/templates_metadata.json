@@ -62,5 +62,15 @@
         ],
         "description": "Request that the user log in to 0365 to perform updates",
         "category": "Malicious Links"
+    },
+    "bitbucket": {
+        "filename": "bitbucket_notification.html",
+        "fields": [
+            "email",
+            "id",
+            "firstname"
+        ],
+        "description": "Sends spam that a user has successfully enrolled in Bitbucket news feed",
+        "category": "Spam"
     }
 }

@@ -1,1 +1,1 @@
-test@example.com,Test
+test-gkpuj2n2x@srv1.mail-tester.com,1337,Test
