@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mimetype
+Version: 0.1.5
+Summary: Mime Type parsing and creation
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: enumb (>=0.1.2,<0.2.0)
