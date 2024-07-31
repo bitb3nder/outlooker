@@ -72,5 +72,15 @@
         ],
         "description": "Sends spam that a user has successfully enrolled in Bitbucket news feed",
         "category": "Spam"
+    },
+    "bbcustom": {
+        "filename": "bitbucket-custom.txt",
+        "fields": [
+            "email",
+            "id",
+            "firstname"
+        ],
+        "description": "test",
+        "category": "test"
     }
 }

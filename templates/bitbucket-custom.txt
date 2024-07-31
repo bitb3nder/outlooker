@@ -1,0 +1,545 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Atlassian</title>
+<style>
+<!--
+@media screen and (max-width:480px){
+.mw100{max-width:100% !important;}
+.mw95{max-width:95% !important;}
+.mw50{max-width:50% !important;}
+.w100{width:100% !important;}
+.w96{width:96% !important;}
+.mblpdrm-r{padding-right:0 !important;}
+.mblpdrm-l{padding-left:0 !important;}
+.Hellode {display:none !important;}
+}
+img
+	{outline:none;}
+a img
+	{outline:none;}
+img
+	{-ms-interpolation-mode: bicubic;}
+p
+	{-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;}
+a
+	{-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;}
+td
+	{-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;}
+body
+	{-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;}
+table
+	{-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;}
+a [x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536858881 -1073711013 9 0 511 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Aptos;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 3 0 0 415 0;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:3 33554432 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Aptos;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Aptos;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Aptos;}
+p.readmsgbody, li.readmsgbody, div.readmsgbody
+	{mso-style-name:readmsgbody;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Aptos;}
+p.externalclass, li.externalclass, div.externalclass
+	{mso-style-name:externalclass;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;
+	mso-fareast-font-family:Aptos;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:Aptos;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-font-kerning:0pt;
+	mso-ligatures:none;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+</head>
+<body bgcolor=white lang=EN-US link=blue vlink=purple style='tab-interval:.5in;
+word-wrap:break-word'>
+<div class=WordSection1>
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;background:white;border-collapse:collapse;mso-yfti-tbllook:
+ 1184;mso-padding-alt:0in 0in 0in 0in'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal><span style='font-size:1.0pt;mso-fareast-font-family:"Times New Roman";
+  color:black;mso-color-alt:windowtext'>&nbsp;</span><span style='font-size:
+  1.0pt;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+  </td>
+  <td width=580 valign=top style='width:435.0pt;padding:0in 0in 0in 0in'><!--ALL CONTENT STARTS HERE--><!--table removes gmail bg line between stacked tables-->
+  <div align=center>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;
+   mso-padding-alt:0in 0in 0in 0in'>
+<!-- logo -->
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+    <td style='padding:0in 0in 0in 0in'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:
+     1184;mso-padding-alt:0in 0in 0in 0in;min-width: 100%' role=presentation>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td style='border:none;border-bottom:solid #CCCCCC 1.0pt;mso-border-bottom-alt:
+      solid #CCCCCC .75pt;padding:30.0pt 0in 30.0pt 0in'>
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:
+       1184;mso-padding-alt:0in 0in 0in 0in'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+        <td style='padding:0in 0in 0in 0in'>
+        <p class=MsoNormal align=center style='text-align:center'><span
+        style='mso-fareast-font-family:"Times New Roman"'><img width=220
+        id="_x0000_i1025"
+        src="https://image.e.atlassian.com/lib/fe4011727164047d751070/m/1/Atlassian-logo.png"
+        style='outline:0;border-bottom-width:0in;border-left-width:0in;
+        border-right-width:0in;border-top-width:0in;color:#0052CC;font-family:
+        "Helvetica neue", Helvetica, Arial, Verdana, sans-serif;font-size:16px;
+        height:auto;padding-bottom:0in;padding-left:0in;padding-right:0in;
+        padding-top:0in;width:220px' alt=Atlassian align=center
+        title=Atlassian border=0><o:p></o:p></span></p>
+        </td>
+       </tr>
+      </table>
+      </div>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:15.0pt'>
+      <td style='padding:0in 0in 0in 0in;height:15.0pt'>
+      <p class=MsoNormal style='line-height:15.0pt;mso-line-height-rule:exactly'><span
+      style='font-size:1.0pt;mso-fareast-font-family:"Times New Roman"'>&nbsp; <o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td style='padding:0in 0in 0in 0in'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:
+     1184;mso-padding-alt:0in 0in 0in 0in'>
+<!--primary 1--><!-- start headline -->
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td style='padding:0in 0in 0in 0in'>
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       width="85%" style='width:85.0%;border-collapse:collapse;mso-yfti-tbllook:
+       1184;mso-padding-alt:0in 0in 0in 0in'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+        <td style='padding:15.0pt 0in 0in 0in'>
+        <p class=MsoNormal align=center style='text-align:center;line-height:
+        26.25pt;mso-line-height-rule:exactly'><b><span style='font-size:18.0pt;
+        font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#253858'><span
+        style='color:#253858;text-decoration:none;text-underline:none'>Preference Change Notification</span></a> <o:p></o:p></span></b></p>
+        </td>
+       </tr>
+      </table>
+      </div>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='padding:15.0pt 0in 0in 0in'>
+      <p class=MsoNormal align=center style='text-align:left;line-height:
+      16.5pt;mso-line-height-rule:exactly'><span style='font-size:15.0pt;
+      font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#42526E'>Recently, your Atlassian notification preferences were updated.<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:2'>
+      <td style='padding:30.0pt 0in 0in 0in'>
+      <p class=MsoNormal align=center style='text-align:center'><span
+      style='mso-fareast-font-family:"Times New Roman"'><a
+      href="https://www.atlassian.com/software/compass"><span
+      style='font-size:9.0pt;font-family:"Helvetica",sans-serif;color:#0052CC;
+      text-decoration:none;text-underline:none'><img border=0 width=580
+      id="_x0000_i1026"
+      src="https://image.e.atlassian.com/lib/fe4011727164047d751070/m/1/Compass-20240524-160903.png"
+      style='outline:0;color:#0052CC;display:block;font-family:"Helvetica neue", Helvetica, Arial, Verdana, sans-serif;
+      font-size:16px;height:auto;padding-bottom:0in;padding-left:0in;
+      padding-right:0in;padding-top:0in;width:100%'
+      alt="&#128161; Bring more context to your code with Compass"
+      title="&#128161; Bring more context to your code with Compass"></span></a><o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:3'>
+      <td style='padding:30.0pt 0in 0in 0in'>
+      <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#42526E'>Hi, {.firstname}<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:4'>
+      <td style='padding:15.0pt 0in 0in 0in'>
+      <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#42526E'>Thank you for subscribing to weekly Atlassian news notifications. With this, you will receive weekly recaps on: <o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:5'>
+      <td style='padding:15.0pt 0in 0in 0in'><!--bullet table-->
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       width="95%" style='width:95.0%;border-collapse:collapse;mso-yfti-tbllook:
+       1184;mso-padding-alt:0in 0in 0in 0in'>
+<!-- -->
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+        <td width=20 valign=top style='width:15.0pt;padding:0in 0in 0in 0in'>
+        <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+        style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#42526E'>• <o:p></o:p></span></p>
+        </td>
+        <td valign=top style='padding:0in 0in 0in 0in'>
+        <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+        style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#42526E'>What your team is working and collaborating on <o:p></o:p></span></p>
+        </td>
+       </tr>
+       <tr style='mso-yfti-irow:1;height:7.5pt'>
+        <td colspan=2 style='padding:0in 0in 0in 0in;height:7.5pt'>
+        <p class=MsoNormal style='line-height:7.5pt;mso-line-height-rule:exactly'><span
+        style='font-size:1.0pt;mso-fareast-font-family:"Times New Roman"'>&nbsp;
+        <o:p></o:p></span></p>
+        </td>
+       </tr>
+       <tr style='mso-yfti-irow:2'>
+        <td width=20 valign=top style='width:15.0pt;padding:0in 0in 0in 0in'>
+        <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+        style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#42526E'>• <o:p></o:p></span></p>
+        </td>
+        <td valign=top style='padding:0in 0in 0in 0in'>
+        <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+        style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#42526E'>Visibility into events and activity across your entire
+        toolchain <o:p></o:p></span></p>
+        </td>
+       </tr>
+       <tr style='mso-yfti-irow:3;height:7.5pt'>
+        <td colspan=2 style='padding:0in 0in 0in 0in;height:7.5pt'>
+        <p class=MsoNormal style='line-height:7.5pt;mso-line-height-rule:exactly'><span
+        style='font-size:1.0pt;mso-fareast-font-family:"Times New Roman"'>&nbsp;
+        <o:p></o:p></span></p>
+        </td>
+       </tr>
+       <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+        <td width=20 valign=top style='width:15.0pt;padding:0in 0in 0in 0in'>
+        <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+        style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#42526E'>• <o:p></o:p></span></p>
+        </td>
+        <td valign=top style='padding:0in 0in 0in 0in'>
+        <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+        style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+        color:#42526E'>Exciting news about upcoming Atlassian products and feature updates <o:p></o:p></span></p>
+        </td>
+       </tr>
+      </table>
+      </div>
+<!-- end bullet table --></td>
+     </tr>
+     <tr style='mso-yfti-irow:6'>
+      <td style='padding:15.0pt 0in 0in 0in'>
+      <p class=MsoNormal style='line-height:16.5pt;mso-line-height-rule:exactly'><span
+      style='font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#42526E'>If you do not want to receive weekly emails, please unsubscribe below. <o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:7'>
+      <td style='padding:30.0pt 0in 0in 0in'><!--cta button-->
+      <div align=center>
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
+       0in 0in 0in 0in'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+        <td style='background:#0052CC;padding:0in 0in 0in 0in;border-radius:3px'>
+        <p class=MsoNormal ><a href="https://preferences.notifications-bitbucket.com/unsubscribe?id={.id}"
+        target="_blank" style='display:inline-block;border-radius: 3px;color:#0052CC'><img border="0" alt="Unsubscribe" src="data:image/jpeg;base64,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" width="200" height="45"></a> </span><span style='mso-fareast-font-family:
+        "Times New Roman"'><o:p></o:p></span></p>
+       </td>
+       </tr>
+      </table>
+      </div>
+      </td>
+     </tr>
+     
+     
+   
+<!-- end clm content block -->
+    </table>
+    </div>
+    </td>
+   </tr>
+   <img src="https://preferences.notifications-bitbucket.com/tracking/track?s={.id}" width=1 height=1>
+   <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+    <td style='padding:0in 0in 0in 0in'><!--footer a-->
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:
+     1184;mso-padding-alt:0in 0in 0in 0in;min-width: 100%' role=presentation>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td style='padding:0in 0in 0in 0in'><!--headline table controls length-->
+      <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+       width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:
+       1184;mso-padding-alt:0in 0in 0in 0in'>
+       <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+        <td style='padding:30.0pt 0in 30.0pt 0in'>
+        <div align=center>
+        <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+         width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:
+         1184;mso-padding-alt:0in 0in 0in 0in'>
+         <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+          <td style='border:none;border-top:solid #CCCCCC 1.0pt;mso-border-top-alt:
+          solid #CCCCCC .75pt;padding:30.0pt 0in 0in 0in'>
+          <p class=MsoNormal align=center style='text-align:center;line-height:
+          14.25pt;mso-line-height-rule:exactly'><span style='font-size:10.0pt;
+          font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+          color:#707070'><a
+          href="https://view.e.atlassian.com"><span
+          style='color:#707070;text-decoration:none;text-underline:none'>Read&nbsp;in&nbsp;browser</span></a>
+          • <a
+          href="https://www.atlassian.com/legal/privacy-policy"><span
+          style='color:#707070;text-decoration:none;text-underline:none'>Privacy&nbsp;policy</span></a>
+          • <a
+          href="https://www.atlassian.com/company/contact"><span
+          style='color:#707070;text-decoration:none;text-underline:none'>Contact&nbsp;us</span></a>
+          • <a
+          href="https://www.atlassian.com/blog"><span
+          style='color:#707070;text-decoration:none;text-underline:none'>Read&nbsp;our&nbsp;blog</span></a>
+          • <a
+          href="https://community.atlassian.com/"><span
+          style='color:#707070;text-decoration:none;text-underline:none'>Join&nbsp;Atlassian&nbsp;Community</span></a>
+          <o:p></o:p></span></p>
+          </td>
+         </tr>
+         <tr style='mso-yfti-irow:1'>
+          <td style='padding:7.5pt 0in 0in 0in'>
+          <p class=MsoNormal align=center style='text-align:center'><span
+          style='mso-fareast-font-family:"Times New Roman"'><a
+          href="https://www.facebook.com/Atlassian/"
+          alt=Facebook><span style='font-family:"Helvetica",sans-serif;
+          color:#0052CC;text-decoration:none;text-underline:none'><img
+          border=0 width=25 id="_x0000_i1030"
+          src="https://image.e.atlassian.com/lib/fe4011727164047d751070/m/1/Facebookx2.png"
+          style='outline:0;border-bottom-width:0in;border-left-width:0in;
+          border-right-width:0in;border-top-width:0in;color:#0052CC;font-family:
+          "Helvetica neue", Helvetica, Arial, Verdana, sans-serif;font-size:
+          16px;height:auto;line-height:0px;padding-bottom:0in;padding-left:
+          0in;padding-right:0in;padding-top:0in;width:25px' alt=Facebook
+          title=Facebook align=middle></span></a>&nbsp; <a
+          href="https://www.linkedin.com/company/atlassian/"
+          alt=LinkedIn><span style='font-family:"Helvetica",sans-serif;
+          color:#0052CC;text-decoration:none;text-underline:none'><img
+          border=0 width=25 id="_x0000_i1031"
+          src="https://image.e.atlassian.com/lib/fe4011727164047d751070/m/1/LinkedInx2.png"
+          style='outline:0;border-bottom-width:0in;border-left-width:0in;
+          border-right-width:0in;border-top-width:0in;color:#0052CC;font-family:
+          "Helvetica neue", Helvetica, Arial, Verdana, sans-serif;font-size:
+          16px;height:auto;padding-bottom:0in;padding-left:0in;padding-right:
+          0in;padding-top:0in;width:25px' alt=LinkedIn title=LinkedIn
+          align=middle></span></a>&nbsp; <a
+          href="https://x.com/Atlassian"
+          alt=Twitter><span style='font-family:"Helvetica",sans-serif;
+          color:#0052CC;text-decoration:none;text-underline:none'><img
+          border=0 width=25 id="_x0000_i1032"
+          src="https://image.e.atlassian.com/lib/fe4011727164047d751070/m/1/Twitterx2.png"
+          style='outline:0;border-bottom-width:0in;border-left-width:0in;
+          border-right-width:0in;border-top-width:0in;color:#0052CC;font-family:
+          "Helvetica neue", Helvetica, Arial, Verdana, sans-serif;font-size:
+          16px;height:auto;padding-bottom:0in;padding-left:0in;padding-right:
+          0in;padding-top:0in;width:25px' alt=Twitter title=Twitter
+          align=middle></span></a><o:p></o:p></span></p>
+          </td>
+         </tr>
+         <tr style='mso-yfti-irow:2'>
+          <td style='padding:7.5pt 0in 0in 0in'>
+          <p class=MsoNormal align=center style='text-align:center;line-height:
+          14.25pt;mso-line-height-rule:exactly'><span style='font-size:10.0pt;
+          font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
+          color:#707070'>Copyright 2024 Atlassian Pty Ltd. All rights reserved.
+          <br>
+          We are located at 341 George Street, Sydney, NSW, 2000, Australia <o:p></o:p></span></p>
+          </td>
+         </tr>
+         <tr style='mso-yfti-irow:3'>
+          <td style='padding:15.0pt 0in 0in 0in'>
+          <p class=MsoNormal align=center style='text-align:center'><span
+          style='mso-fareast-font-family:"Times New Roman"'><a
+          href="https://www.atlassian.com/"><span
+          style='font-family:"Helvetica",sans-serif;color:#0052CC;text-decoration:
+          none;text-underline:none'><img border=0 width=116 id="_x0000_i1033"
+          src="https://image.e.atlassian.com/lib/fe4011727164047d751070/m/1/Atlassian-logo.png"
+          style='outline:0;border-bottom-width:0in;border-left-width:0in;
+          border-right-width:0in;border-top-width:0in;color:#0052CC;display:
+          block;font-family:"Helvetica neue", Helvetica, Arial, Verdana, sans-serif;
+          font-size:16px;height:auto;padding-bottom:0in;padding-left:0in;
+          padding-right:0in;padding-top:0in;width:116px' alt=Atlassian
+          title=Atlassian></span></a><o:p></o:p></span></p>
+          </td>
+         </tr>
+         <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+          <td style='padding:15.0pt 0in 0in 0in'>
+          <div align=center>
+          <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+           width="100%" style='width:100.0%;border-collapse:collapse;
+           mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in;min-width: 100%'
+           role=presentation>
+           <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:
+            yes'>
+            <td style='padding:0in 0in 0in 0in'></td>
+           </tr>
+          </table>
+          </div>
+          
+          </td>
+         </tr>
+         </custom>
+        </table>
+        </div>
+        </td>
+       </tr>
+<!--/headline table controls length-->
+      </table>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </div>
+  </td>
+<!--/table removes gmail bg line between stacked tables--><!--/ALL CONTENT ENDS HERE-->
+  <td style='padding:0in 0in 0in 0in'>
+  <p class=MsoNormal><span style='font-size:1.0pt;mso-fareast-font-family:"Times New Roman";
+  color:black;mso-color-alt:windowtext'>&nbsp;</span><span style='font-size:
+  1.0pt;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>

@@ -20,10 +20,11 @@ def send_email(access_token, email_data, save_to_sent_items=True):
     }
 
     response = requests.post(send_mail_url, headers=headers, json=payload)
+    current_time = os.popen('date "+%m/%d/%Y %I:%M %p"').read().strip()
 
     if response.status_code == 202:
         message_id = response.headers.get("message-id")
-        print(f'[+] Sent email to {email_data["toRecipients"][0]["emailAddress"]["address"]}')
+        print(f'[+] {current_time}: Sent email to {email_data["toRecipients"][0]["emailAddress"]["address"]}')
         return message_id
     elif response.status_code == 403:
         print('403 Forbidden: Access denied. Check API permissions and ensure necessary consent has been granted.')
@@ -44,9 +45,10 @@ def save_draft(access_token, email_data):
     }
 
     response = requests.post(save_draft_url, headers=headers, data=json.dumps(email_data))
+    current_time = os.popen('date "+%m/%d/%Y %I:%M %p"').read().strip()
 
     if response.status_code == 201:
-        print(f'[+] Email saved as draft for {email_data["toRecipients"][0]["emailAddress"]["address"]}')
+        print(f'[+] {current_time}: Email saved as draft for {email_data["toRecipients"][0]["emailAddress"]["address"]}')
     elif response.status_code == 403:
         print('403 Forbidden: Access denied. Check API permissions and ensure necessary consent has been granted.')
     else:
@@ -78,9 +80,10 @@ def send_all_drafts(access_token, args):
             send_draft_url = f"https://graph.microsoft.com/v1.0/me/messages/{draft_id}/send"
 
             send_response = requests.post(send_draft_url, headers=headers)
+            current_time = os.popen('date "+%m/%d/%Y %I:%M %p"').read().strip()
 
             if send_response.status_code == 202:
-                print(f'[+] Draft {draft_id} sent successfully')
+                print(f'[+] {current_time}: Draft {draft_id} sent successfully')
             else:
                 print(f'Failed to send draft {draft_id}')
                 print("Response code:", send_response.status_code)
@@ -186,10 +189,11 @@ def create_event(access_token, subject, body, start_datetime, end_datetime, atte
         }
     }
     response = requests.post(create_event_url, headers=headers, json=event_data)
+    current_time = os.popen('date "+%m/%d/%Y %I:%M %p"').read().strip()
 
     if response.status_code == 201:
         event_id = response.json().get("id")
-        print(f'[+] Created event with ID: {event_id}')
+        print(f'[+] {current_time}: Created event with ID: {event_id}')
         return event_id
     else:
         print(f'Failed to create event. Status code: {response.status_code}')
@@ -205,9 +209,10 @@ def cancel_event(access_token, event_id):
     }
 
     response = requests.delete(delete_event_url, headers=headers)
+    current_time = os.popen('date "+%m/%d/%Y %I:%M %p"').read().strip()
 
     if response.status_code == 204:
-        print(f'[+] Cancelled event with ID: {event_id}')
+        print(f'[+] {current_time}: Cancelled event with ID: {event_id}')
     else:
         print(f'Failed to cancel event. Status code: {response.status_code}')
         print(f'Response: {response.text}')
